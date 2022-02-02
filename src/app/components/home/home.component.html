@@ -1,0 +1,21 @@
+<div class="container">
+  <h1>How to Display Data in Angular 9/8/7? - HDTuto.com</h1>
+
+  <table class="table table-striped">
+    <thead>
+      <tr>
+        <th>courseId</th>
+        <th>coursename</th>
+        <th>author</th>
+      </tr>
+    </thead>
+
+    <tbody>
+      <tr *ngFor="let item of stringObject">
+        <td>{{ item.courseid }}</td>
+        <td>{{ item.coursename }}</td>
+        <td>{{ item.author }}</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
